@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel='stylesheet' href='style.css' type="text/css" />
+</head>
+
+<body>
+
+    <section>
+        <!-- <form action="/click" method="post">
+            <span>Enter Kubernates Namespace: </span><input name="namespace" type="text" /> <br />
+            <button type="submit">Start Microservices</button>
+        </form> -->
+
+
+        <form action="/click" method="post" >
+            <!-- <label for="">Enter Kubernates Namespace: </label> -->
+            <!-- <input id="name" type="text" placeholder="Input Your Name Here"> -->
+            <span>Enter Kubernates Namespace: </span><input name="namespace" type="text" /> <br />
+
+            <button id="my_button" type="submit">
+                Start Microservices
+            </button>
+
+        </form>
+
+        <!-- <h3>List of Names:</h3>
+        <div id="my_div"></div> -->
+
+    </section>
+
+
+
+
+    <!-- <script>
+        function append_to_div(div_name, data) {
+            document.getElementById(div_name).innerText += data;
+        }
+
+        document.getElementById("my_button")
+            .addEventListener('click', function () {
+
+                var user_name = document.getElementById("name");
+                var value = user_name.value.trim();
+                
+                if (!value)
+                    alert("Name Cannot be empty!");
+                else
+                    append_to_div("my_div", value + "\n");
+
+                user_name.value = "";
+            });
+    </script> -->
+
+</body>
+
+</html>
