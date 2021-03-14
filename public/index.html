@@ -11,7 +11,7 @@
 
 <body>
 
-    <section>
+    <section class="section-1">
         <!-- <form action="/click" method="post">
             <span>Enter Kubernates Namespace: </span><input name="namespace" type="text" /> <br />
             <button type="submit">Start Microservices</button>
@@ -23,8 +23,18 @@
             <!-- <input id="name" type="text" placeholder="Input Your Name Here"> -->
             <span>Enter Kubernates Namespace: </span><input name="namespace" type="text" /> <br />
 
-            <button id="my_button" type="submit">
+            <button id="my_button" type="submit" class="button-1">
                 Start Microservices
+            </button>
+
+        </form>
+
+        <form action="/stop" method="get" >
+            <!-- <label for="">Enter Kubernates Namespace: </label> -->
+            <!-- <input id="name" type="text" placeholder="Input Your Name Here"> -->
+
+            <button id="my_button" type="submit" class="button-2">
+                Stop Microservices
             </button>
 
         </form>
@@ -34,8 +44,7 @@
 
     </section>
 
-
-
+     
 
     <!-- <script>
         function append_to_div(div_name, data) {

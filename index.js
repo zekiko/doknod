@@ -36,6 +36,11 @@ app.post('/click', function (req, res) {
   
 });
 
+app.get('/stop', function (req, res) {
+  console.log("stopped...")
+  res.status(204).send();
+});
+
  
 
  
